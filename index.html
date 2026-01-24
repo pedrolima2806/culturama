@@ -33,7 +33,6 @@
             <label for="userPhoto">Envie sua foto:</label>
             <input type="file" id="userPhoto" name="Photo" accept="image/*">
         </fieldset>
-
         <fieldset>
             <legend>Perfil</legend>
 
@@ -113,12 +112,26 @@
                 <label for="linked-in">LinkedIn</label>
                 <input type="checkbox" id="linkedin" name="social" value="linkedin">
             </checkbox-group>
-
+            <br>
+            <label for="musicStyle">Estilo Musical:</label>
+            <input type="text" list="styleTypes" id="musicStyle" name="userMusicStyle">
+            <datalist id="styleTypes">
+                <option value="Rock">Rock</option>
+                <option value="Pop">Pop</option>
+                <option value="Funk">Funk</option>
+                <option value="Sertanejo">Sertanejo</option>
+                <option value="MPB">MPB</option>
+                <option value="Eletrônica">Eletrônica</option>
+                <option value="Clássica">Clássica</option>
+                <option value="Jazz">Jazz</option>
+                <option value="Blues">Blues</option>
+                <option value="Gospel">Gospel</option>
+            </datalist>
+            <br>
             
-
-
-
+      
         </fieldset>
+
 
         <button type="submit">Enviar</button>
 
