@@ -108,3 +108,7 @@ input[type="range"]{
     width: 95%;
     accent-color: #333333;
 }
+
+p{
+    text-align: center;
+    font-size: 19px;}
