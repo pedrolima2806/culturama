@@ -38,7 +38,8 @@
                 <br>
 
                 <label for="userPhoneNumber">Telefone:</label>
-                <input type="tel" id="userPhoneNumber" name="PhoneNumber" pattern="[0-9]{11}" placeholder="DDD+número, ex: 00000000000" required>
+                <input type="tel" id="userPhoneNumber" name="PhoneNumber" pattern="[0-9]{11}" placeholder="DDD+número, ex: 00000000000" aria-describedby="PhoneHelp">
+                <small id="PhoneHelp">Digite o telefone no formato DDD + número sem espaços ou hífens</small>
                 <br>
                 
                 <label for="userPhoto">Envie sua foto:</label>
