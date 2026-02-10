@@ -1,5 +1,20 @@
+:root{
+    --background-color: #EDE8D0;
+    --text-color: #333333;
+}
+
+.theme-high-contrast {
+    --background-color: #000000;
+    --text-color: #FFFFFF;
+}
+
+html{
+    font-size: 100%;
+}
+
 h1{
     font-family: 'Fjalla One', sans-serif;
+    font-size: 2rem;
     text-align: center;
     color: #333333;
 }
@@ -13,7 +28,8 @@ main{
 
 body {
     font-family: 'Work Sans', sans-serif;
-    background-color: #EDE8D0;
+    background-color: var(--background-color);
+    color: var(--text-color);
     margin: 5px;
     padding: 20px;
 }
@@ -121,4 +137,5 @@ input[type="range"]{
 p{
     text-align: center;
     font-size: 19px;
+    font-size: 1rem;
 }
