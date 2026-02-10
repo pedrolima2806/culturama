@@ -43,8 +43,8 @@
                 <br>
                 
                 <label for="userPhoto">Envie sua foto:</label>
-                <input type="file" id="userPhoto" name="Photo" accept="image/*">
-                <small>Envie uma imagem JPG ou PNG de até 5MB</small>
+                <input type="file" id="userPhoto" name="Photo" accept="image/*" aria-describedby="PhotoHelp">
+                <small id="PhotoHelp">Envie uma imagem JPG ou PNG de até 5MB</small>
             </fieldset>
             <!-- Perfil -->
             <fieldset>
@@ -169,8 +169,8 @@
                 <label for="getResult">Desejo receber o resultado por email</label>
             </fieldset> 
 
-            <button type="submit">Enviar</button>
-            <button type="reset">Limpar</button>
+            <button type="submit" aria-label="Enviar fomulário">Enviar</button>
+            <button type="reset" aria-label="Limpar formulário">Limpar</button>
 
 
             </form>
